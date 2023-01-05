@@ -219,3 +219,6 @@ select {
   border-radius: 50%;
   position: absolute;
 }
+.scrollmagic-pin-spacer {
+  position: static !important;
+}
