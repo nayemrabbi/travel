@@ -82,6 +82,7 @@ select {
 #logo {
   color: white;
   font-family: Abril Fatface;
+  text-decoration: underline;
 }
 .nav-header {
   min-height: 10vh;
@@ -93,6 +94,8 @@ select {
   align-items: center;
   justify-content: space-between;
   color: white;
+  z-index: 2;
+  position: relative;
 }
 .line1,
 .line2 {
@@ -263,4 +266,7 @@ select {
 }
 .scrollmagic-pin-spacer {
   position: static !important;
+}
+body.hide {
+  overflow: hidden;
 }
